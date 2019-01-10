@@ -7,7 +7,7 @@
  *
  * Generated at Saturday, May 14th, 2016, 5:19:19 PM
  */
-(function() {
+export let SVGMorpheus = (function() {
 'use strict';
 
 /*
@@ -1473,7 +1473,7 @@ if (typeof define === 'function' && define.amd) {
 } else if (typeof module !== 'undefined' && typeof module.exports !== 'undefined') {
   module.exports = SVGMorpheus
 } else {
-  window.SVGMorpheus = SVGMorpheus
+  return SVGMorpheus;
 }
 
 }());
