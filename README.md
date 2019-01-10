@@ -8,6 +8,15 @@ THIS PROJECT IS NOT MAINTAINED ANYMORE. You are free to fork it and start a new 
 
 JavaScript library enabling SVG icons to morph from one to the other. It implements Material Design's [Delightful Details](http://www.google.com/design/spec/animation/delightful-details.html) transitions.
 
+Fork details: Just a fork of the last version before the project was discontinued, changing the unmimified version to be compatible with es6 exports so one can do something to the effect:
+
+```javascript
+import {SVGMorpheus} from '../svg-morpheus/compile/unminified/svg-morpheus.js';
+
+var myIcons = new SVGMorpheus('#myIconSet');
+```
+After that the lib can be used as it was before. Fork done for the development of [SOMA](http://www.cepel.br/produtos/programas-computacionais/menu/soma-sistema-orientado-ao-monitoramento-de-ativos-de-engenharia.htm)
+
 ## Live demo
 
 [Launch Live Demo](http://alexk111.github.io/SVG-Morpheus/)
